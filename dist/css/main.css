@@ -67,6 +67,19 @@ body {
           background-color: #2575fc; }
           #form .container .login-form form .form-container button:hover {
             background-color: #36348e; }
+        #form .container .login-form form .form-container .userBtn {
+          font-size: 1.3rem;
+          display: flex;
+          justify-content: center; }
+          #form .container .login-form form .form-container .userBtn .btnText {
+            text-align: center;
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center; }
+            #form .container .login-form form .form-container .userBtn .btnText i {
+              font-size: 1.8rem;
+              padding-left: 2rem; }
 
 @media (max-width: 1150px) {
   #form .container .image #contact-details {

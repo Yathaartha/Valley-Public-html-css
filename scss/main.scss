@@ -105,6 +105,25 @@ body {
               background-color: $btn-secondary;
             }
           }
+
+          .userBtn {
+            font-size: 1.3rem;
+            display: flex;
+            justify-content: center;
+
+            .btnText {
+              text-align: center;
+              width: 70%;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+
+              i {
+                font-size: 1.8rem;
+                padding-left: 2rem;
+              }
+            }
+          }
         }
       }
     }
