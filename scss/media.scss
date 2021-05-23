@@ -1,0 +1,33 @@
+@media (max-width: 1150px) {
+  #form {
+    .container {
+      .image {
+        #contact-details {
+          width: 90%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  #form {
+    .container {
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  #form {
+    .container {
+      .image {
+        display: none;
+      }
+
+      .login-form {
+        width: 100%;
+      }
+    }
+  }
+}

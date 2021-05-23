@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #d1e4dd; }
+
+.container {
+  width: 70%;
+  margin: auto;
+  height: 80%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row; }
+
+#form {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #form .container .image {
+    width: 60%; }
+    #form .container .image #contact-details {
+      background-color: #fff;
+      width: 60%;
+      margin: auto;
+      position: relative;
+      top: -100px; }
+      #form .container .image #contact-details .list {
+        margin: auto; }
+      #form .container .image #contact-details .item {
+        display: flex;
+        justify-content: center; }
+        #form .container .image #contact-details .item .item-title {
+          margin-left: 2rem;
+          width: 25%;
+          font-weight: 700; }
+        #form .container .image #contact-details .item .item-body {
+          width: 75%; }
+    #form .container .image img {
+      width: 100%;
+      height: 100%; }
+  #form .container .login-form {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+    #form .container .login-form form {
+      width: 90%;
+      height: 80%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      #form .container .login-form form .form-container {
+        width: 100%; }
+        #form .container .login-form form .form-container #checkfield {
+          display: flex;
+          justify-content: space-between; }
+        #form .container .login-form form .form-container a {
+          font-style: italic; }
+        #form .container .login-form form .form-container h4 {
+          margin: 10px auto; }
+        #form .container .login-form form .form-container button {
+          width: 100%;
+          background-color: #2575fc; }
+          #form .container .login-form form .form-container button:hover {
+            background-color: #36348e; }
+
+@media (max-width: 1150px) {
+  #form .container .image #contact-details {
+    width: 90%; } }
+
+@media (max-width: 1000px) {
+  #form .container {
+    width: 90%; } }
+
+@media (max-width: 720px) {
+  #form .container .image {
+    display: none; }
+  #form .container .login-form {
+    width: 100%; } }
