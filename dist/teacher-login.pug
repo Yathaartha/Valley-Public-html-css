@@ -1,0 +1,43 @@
+meta(charset="UTF-8")
+meta(http-equiv="X-UA-Compatible", content="IE=edge")
+meta(name="viewport", content="width=device-width,initial-scale=1")
+link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css", integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==", crossorigin="anonymous", referrerpolicy="no-referrer")
+title Teacher
+link(rel="stylesheet", href="./css/main.css")
+section#form
+  .container
+    .image
+      img(src="./img/form.JPG", alt)
+      .ui.message#contact-details
+        .ui.list
+          .item
+            .item-title Helpdesk
+            .item-body
+              | :01-4370987
+              br
+              |  01-4376215
+          .item
+            .item-title Email
+            .item-body :info@valleypublic.edu.np
+    .login-form
+      form.ui.form
+        .form-container
+          h3 LOGIN AS TEACHER
+          .field
+            input(type="email", name="email", placeholder="Your Email")
+          .field
+            input(type="password", name="password", placeholder="Your Password")
+          .field#checkfield
+            .ui.checkbox
+              input(type="checkbox")
+              label Remember me
+            a(href="#") Forgot password?
+          button#login.ui.primary.button(control-id="ControlID-4").
+            
+            Login
+            
+          h4 OR
+          button#register.ui.primary.button(control-id="ControlID-4").
+            
+            Register
+            
